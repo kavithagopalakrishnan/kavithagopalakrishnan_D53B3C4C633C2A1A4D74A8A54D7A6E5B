@@ -1,0 +1,11 @@
+print(" the factorial program")
+n=0
+n=int(input("enter the number:"))
+print("output")
+def fact(f):
+  if f==0:
+    return 1
+  else:
+    return f*fact(f-1)
+print("the factorial value is",fact(n))
+  
